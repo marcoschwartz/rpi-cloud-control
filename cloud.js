@@ -1,7 +1,7 @@
 // Start
 var express = require('express');
 var app = express();
-var piREST = require('./../../index.js')(app);
+var piREST = require('pi-arest')(app);
 
 piREST.set_id('c2dgyg');
 piREST.set_name('pi_cloud');
